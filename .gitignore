@@ -1,0 +1,14 @@
+*.suo
+bin
+Debug
+obj
+deploy
+packages
+*.nupkg
+*.coverage
+*.vsp
+*.user
+*.log
+*.backup*
+*.log_
+*.svclog
