@@ -2,7 +2,7 @@
 
 namespace ChainOfResponsibility.Core.Validators.ApartmentBooking
 {
-    public class ApartmentBookingValidationContext
+    public static class ApartmentBookingValidationContext
     {
         public static Dictionary<string, string> Validate(Models.ApartmentBooking model)
         {

@@ -5,8 +5,9 @@ namespace ChainOfResponsibility.Core.Validators
     public abstract class ValidatorBase
     {
         protected ValidatorBase Successor { get; private set; }
-        public Dictionary<string, string> ErrorsResult { get; set; }
-        public ValidatorBase()
+        protected Dictionary<string, string> ErrorsResult { get; set; }
+
+        protected ValidatorBase()
         {
             ErrorsResult = new Dictionary<string, string>();
         }
